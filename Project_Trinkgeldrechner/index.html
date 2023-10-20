@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project_Trinkgeldrechner</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="calculator__wrapper">
+        <h1>Give me Money!</h1>
+        <form onsubmit="return false">
+          <div>
+            <label for="">Rechnungsbetrag:</label>
+            <input class="price" type="number" placeholder="€" />
+          </div>
+          <div>
+            <label for="">Personenanzahl:</label>
+            <input class="people" type="number" placeholder="Anzahl:" />
+          </div>
+          <div>
+            <label for="">Bitte ausfüllen:</label>
+            <select name="" id="" required>
+              <option value="0" disabled selected hidden>
+                Wie war der Service?
+              </option>
+              <option value="2">Schlechter Service</option>
+              <option value="10">Mittlerer Service</option>
+              <option value="20">Super Service</option>
+            </select>
+          </div>
+          <button onclick="calculate()">Berechnen</button>
+        </form>
+        <p class="amount"></p>
+        <p class="sum"></p>
+        <p class="price"></p>
+      </div>
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

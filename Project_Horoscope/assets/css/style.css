@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.visibility {
+  visibility: visible !important;
+}
+
+main .ask__wrapper {
+  text-align: center;
+}
+main .ask__wrapper form p {
+  padding: 20px 0;
+}
+main .ask__wrapper form button {
+  padding-inline: 1em;
+}
+main .result__wrapper {
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+}
+main .result__wrapper .result {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 15px;
+  background-color: antiquewhite;
+}
+main .result__wrapper .result .result_img {
+  padding: 10px;
+}
+main .result__wrapper .result h3 {
+  color: palevioletred;
+  padding: 1em 0;
+  font-size: 2rem;
+  text-align: left;
+  width: 20ch;
+}
+main .result__wrapper .result p {
+  text-align: left;
+  width: 35ch;
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
